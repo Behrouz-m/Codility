@@ -6,7 +6,7 @@
     #define LOG(X) (void)0
 #endif
 
-int solution(vector<int> &A) {
+int solution1(vector<int> &A) {
     if(A.size() == 1)
         return 0;
         
@@ -26,11 +26,29 @@ int solution(vector<int> &A) {
             
         suffix_sum[i] =  suffix_sum[i+1] + ((A[i] == 0) ? one_counts : 0);
         
-        if(suffix_sum[i] > 1000000000)
+        if(suffix_sum[i] > 1'000'000'000)
             return -1;
             
         LOG("suffix_sum[" << i << "]=" << suffix_sum[i]);
     }
     return suffix_sum[0];
     
+}
+
+int solution2(vector<int> &A) {
+    size_t v_size = A.size();
+    size_t pairs_passed_by = 0;
+    size_t zeroes = 0;
+    for(size_t i = 0; i < v_size; ++i) {
+        if(0 == A[i]) {
+            ++zeroes;
+        }
+        else if(1 == A[i]) {
+            pairs_passed_by += zeroes;
+            if(pairs_passed_by > 1'000'000'000) {
+                return -1;
+            }
+        }
+    }
+    return pairs_passed_by;
 }
