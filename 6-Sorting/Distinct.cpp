@@ -11,6 +11,8 @@ int solution1(vector<int> &A) {
     return dis;
 }
 
+#include <unordered_set.h>
+
 int solution2(vector<int> &v) {
     return std::unordered_set<int>(v.begin(), v.end()).size();
 }
