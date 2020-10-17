@@ -11,7 +11,7 @@ int solution(vector<int> &A) {
     
     for(size_t j=1; j<B.size(); j++) {
         // cout << "B[" << j << "]=" << B[j] << endl;
-        if(B[j] == 0 || B[j] > 1)
+        if(B[j] != 1)
             return 0;
     }
     return 1;
