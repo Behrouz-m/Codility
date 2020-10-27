@@ -50,3 +50,19 @@ int solution(vector<int> &H) {
     }
     return count;
 }
+
+// ref: https://molchevskyi.medium.com/best-solutions-for-codility-lessons-lesson-7-stacks-and-queues-ef1415898cb
+int solution2(const vector<int> &v) {
+    std::stack<int> stack;
+    int stones = 0;    for (auto height : v) {
+        while (!stack.empty() && stack.top() > height) {
+            stack.pop();
+        }
+        if (!stack.empty() && stack.top() == height) {
+            continue;
+        }
+        stones++;
+        stack.push(height);
+    }
+    return stones;
+}
