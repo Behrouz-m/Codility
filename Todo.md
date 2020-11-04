@@ -1,2 +1,4 @@
-[ ] 5-Prefix Sums/GenomicRangeQuery
+[ ] 5/GenomicRangeQuery
 [ ] NumberOfDiscIntersections
+[ ] 10/Peaks
+
