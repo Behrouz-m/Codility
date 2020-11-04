@@ -41,14 +41,17 @@ Codility answers in C++
 ## Lesson 10 [Prime and composite numbers](https://codility.com/programmers/lessons/8)
 - [MinPerimeterRectangle](https://github.com/Behrouz-m/Codility/blob/master/10-PrimeAndCompositeNumbers/MinPerimeterRectangle.cpp)
 - [CountFactors](https://github.com/Behrouz-m/Codility/blob/master/10-PrimeAndCompositeNumbers/CountFactors.cpp)
-<!---
-- [Peaks](https://github.com/Behrouz-m/Codility/blob/master/10-PrimeAndCompositeNumbers/Peaks.cpp)
 - [Flags](https://github.com/Behrouz-m/Codility/blob/master/10-PrimeAndCompositeNumbers/Flags.cpp)
+- [Peaks]
+<!--
+- [Peaks](https://github.com/Behrouz-m/Codility/blob/master/10-PrimeAndCompositeNumbers/Peaks.cpp)
+-->
 
 ## Lesson 11 [Sieve of Eratosthenes](https://codility.com/programmers/lessons/9)
-- [CountSemiprimes](https://github.com/Behrouz-m/Codility/blob/master/Lesson9/CountSemiprimes.cpp)
-- [CountNonDivisible](https://github.com/Behrouz-m/Codility/blob/master/Lesson9/CountNonDivisible.cpp)
+- [CountNonDivisible](https://github.com/Behrouz-m/Codility/blob/master/11-SieveOfEratosthenes/CountNonDivisible.cpp)
+- [CountSemiprimes](https://github.com/Behrouz-m/Codility/blob/master/11-SieveOfEratosthenes/CountSemiprimes.cpp)
 
+<!--
 ## Lesson 12 [Euclidean algorithm](https://codility.com/programmers/lessons/10)
 - [ChocolatesByNumbers](https://github.com/Behrouz-m/Codility/blob/master/Lesson10/ChocolatesByNumbers.cpp)
 - [CommonPrimeDivisors](https://github.com/Behrouz-m/Codility/blob/master/Lesson10/CommonPrimeDivisors.cpp)
