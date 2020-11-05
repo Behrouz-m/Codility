@@ -14,3 +14,10 @@ int gcd(int a, int b, int res) {
     else
         return gcd(a, b - a, res);
 }
+
+int gcdByDivision(int A, int B) {
+    if (A % B == 0)
+        return B;
+    else
+        return gcdByDivision(B, A % B);
+}
