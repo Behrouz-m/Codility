@@ -54,9 +54,9 @@ Codility answers in C++
 
 ## Lesson 12 [Euclidean algorithm](https://codility.com/programmers/lessons/10)
 - [ChocolatesByNumbers](https://github.com/Behrouz-m/Codility/blob/master/12-EuclideanAlgorithm/ChocolatesByNumbers.cpp)
-<!--
 - [CommonPrimeDivisors](https://github.com/Behrouz-m/Codility/blob/master/12-EuclideanAlgorithm/CommonPrimeDivisors.cpp)
 
+<!--
 ## Lesson 13 [Fibonacci numbers](https://codility.com/programmers/lessons/11)
 - [Ladder](https://github.com/Behrouz-m/Codility/blob/master/Lesson11/Ladder.cpp)
 - [FibFrog](https://github.com/Behrouz-m/Codility/blob/master/Lesson11/FibFrog.cpp)

@@ -15,6 +15,10 @@ int gcd(int a, int b, int res) {
         return gcd(a, b - a, res);
 }
 
+int gcd(int a, int b) {
+    return gcd(a, b, 1);
+}
+
 int gcdByDivision(int A, int B) {
     if (A % B == 0)
         return B;
