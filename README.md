@@ -21,7 +21,7 @@ Codility answers in C++
 - [MaxProductOfThree](https://github.com/Behrouz-m/Codility/blob/master/06-Sorting/MaxProductOfThree.cpp)
 - [Distinct](https://github.com/Behrouz-m/Codility/blob/master/06-Sorting/Distinct.cpp)
 - [Triangle](https://github.com/Behrouz-m/Codility/blob/master/06-Sorting/Triangle.cpp)
-- [NumberOfDiscIntersections](https://github.com/Behrouz-m/Codility/blob/master/06-Sorting/NumberOfDiscIntersections.cpp)
+- [NumberOfDiscIntersections]<!--(https://github.com/Behrouz-m/Codility/blob/master/06-Sorting/NumberOfDiscIntersections.cpp)-->
 
 ## Lesson 7 [Stacks and Queues](https://codility.com/programmers/lessons/5)
 - [Brackets](https://github.com/Behrouz-m/Codility/blob/master/07-StacksAndQueues/Brackets.cpp)
