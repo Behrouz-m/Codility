@@ -8,7 +8,7 @@ vector<int> getFibonacciArrayMax(int MaxNum) {
     return fib;
 }
 
-int solution(vector<int> A) {
+int solution1(vector<int>& A) {
     int N = A.size();
     if (N == 0)
         return 1;
@@ -35,5 +35,43 @@ int solution(vector<int> A) {
     if (moves[N - 1] != oo) {
         return moves[N - 1];
     }
+    return -1;
+}
+
+#include <set>
+
+int solution2(vector<int>& A) {
+    int N = A.size();
+
+    vector<int> fib = getFibonacciArrayMax(N);
+
+    set<int> positions;
+    positions.insert(N);
+    for (int jumps = 1; ; jumps++)
+    {
+        set<int> new_positions;
+        for (int pos : positions)
+        {
+            for (int f : fib)
+            {
+                // return jumps if we reach to the start point
+                if (pos - (f - 1) == 0)
+                    return jumps;
+                
+                int prev_pos = pos - f;
+                
+                // we do not need to calculate bigger jumps.
+                if (prev_pos < 0)
+                    break;
+                
+                if (prev_pos < A.size() && A[prev_pos])
+                    new_positions.insert(prev_pos);
+            }
+        }
+        if (new_positions.size() == 0)
+            return -1;
+        positions = new_positions;
+    }
+
     return -1;
 }
