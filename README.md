@@ -60,20 +60,21 @@ Codility answers in C++
 - [FibFrog](https://github.com/Behrouz-m/Codility/blob/master/13-Fibonaccinumbers/FibFrog.cpp)
 - [Ladder](https://github.com/Behrouz-m/Codility/blob/master/13-Fibonaccinumbers/Ladder.cpp)
 
-<!--
 ## Lesson 14 [Binary search algorithm](https://codility.com/programmers/lessons/12)
-- [MinMaxDivision](https://github.com/Behrouz-m/Codility/blob/master/Lesson12/MinMaxDivision.cpp)
-- [NailingPlanks](https://github.com/Behrouz-m/Codility/blob/master/Lesson12/NailingPlanks.cpp)
+- [MinMaxDivision](https://github.com/Behrouz-m/Codility/blob/master/14-BinarySearchAlgorithm/MinMaxDivision.cpp)
+<!--
+- [NailingPlanks](https://github.com/Behrouz-m/Codility/blob/master/14-BinarySearchAlgorithm/NailingPlanks.cpp)
 
 ## Lesson 15 [Caterpillar method](https://codility.com/programmers/lessons/13)
-- [AbsDistinct](https://github.com/Behrouz-m/Codility/blob/master/Lesson13/AbsDistinct.cpp)
-- [CountDistinctSlices](https://github.com/Behrouz-m/Codility/blob/master/Lesson13/CountDistinctSlices.cpp)
-- [CountTriangles](https://github.com/Behrouz-m/Codility/blob/master/Lesson13/CountTriangles.cpp)
-- [MinAbsSumOfTwo](https://github.com/Behrouz-m/Codility/blob/master/Lesson13/MinAbsSumOfTwo.cpp)
+- [AbsDistinct](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/AbsDistinct.cpp)
+- [CountDistinctSlices](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/CountDistinctSlices.cpp)
+- [CountTriangles](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/CountTriangles.cpp)
+- [MinAbsSumOfTwo](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/MinAbsSumOfTwo.cpp)
 
 ## Lesson 16 [Greedy algorithms](https://codility.com/programmers/lessons/15)
-- [MaxNonoverlappingSegments](https://github.com/Behrouz-m/Codility/blob/master/Lesson14/MaxNonoverlappingSegments.cpp)
-- [TieRopes](https://github.com/Behrouz-m/Codility/blob/master/Lesson14/TieRopes.cpp)
+- [MaxNonoverlappingSegments](https://github.com/Behrouz-m/Codility/blob/master/16-GreedyAlgorithms/MaxNonoverlappingSegments.cpp)
+- [TieRopes](https://github.com/Behrouz-m/Codility/blob/master/16-GreedyAlgorithms/TieRopes.cpp)
 
 ## Lesson 17 [Dynamic programming](https://codility.com/programmers/lessons/16)
+- [](https://github.com/Behrouz-m/Codility/blob/master/17-DynamicProgramming/.cpp)
 -->
