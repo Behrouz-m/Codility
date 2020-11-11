@@ -62,9 +62,9 @@ Codility answers in C++
 
 ## Lesson 14 [Binary search algorithm](https://codility.com/programmers/lessons/12)
 - [MinMaxDivision](https://github.com/Behrouz-m/Codility/blob/master/14-BinarySearchAlgorithm/MinMaxDivision.cpp)
-<!--
 - [NailingPlanks](https://github.com/Behrouz-m/Codility/blob/master/14-BinarySearchAlgorithm/NailingPlanks.cpp)
 
+<!--
 ## Lesson 15 [Caterpillar method](https://codility.com/programmers/lessons/13)
 - [AbsDistinct](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/AbsDistinct.cpp)
 - [CountDistinctSlices](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/CountDistinctSlices.cpp)
