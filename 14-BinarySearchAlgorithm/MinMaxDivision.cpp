@@ -33,15 +33,18 @@ int solution(int K_MaxBlockCount, int /*M*/, vector<int> &A) {
     if (K_MaxBlockCount == 1)
         return max_sum;
 
+	int result = min_sum;
+	
     while (min_sum <= max_sum) {
         int mid_sum_candidate = (min_sum + max_sum) / 2;
         // check if we can make maximum possible blocks (<K) that have maximum large sum up to mid_sum_candidate
         if (check(A, K_MaxBlockCount, mid_sum_candidate)) {    
+			result = mid_sum_candidate;
             max_sum = mid_sum_candidate - 1;
         }
         else {
             min_sum = mid_sum_candidate + 1;
         }
     }
-    return min_sum;
+    return result;
 }
