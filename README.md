@@ -66,8 +66,8 @@ Codility answers in C++
 
 ## Lesson 15 [Caterpillar method](https://codility.com/programmers/lessons/13)
 - [AbsDistinct](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/AbsDistinct.cpp)
-<!--
 - [CountDistinctSlices](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/CountDistinctSlices.cpp)
+<!--
 - [CountTriangles](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/CountTriangles.cpp)
 - [MinAbsSumOfTwo](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/MinAbsSumOfTwo.cpp)
 
