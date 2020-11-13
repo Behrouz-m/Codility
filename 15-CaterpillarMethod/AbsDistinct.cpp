@@ -3,13 +3,13 @@
 #include <cmath>
 #include <climits>
 
-int solution(vector<int> &A) {
-	auto begin = A.begin();
+int solution1(vector<int> &A) {
+    auto begin = A.begin();
     auto end = A.end()-1;
     int dist_count = 1;
     int64_t last = INT64_MAX;
     while (begin <= end) {
-		// using int64_t to avoid arithmatic overflow in test cases!
+	 // using int64_t to avoid arithmatic overflow in test cases!
         int64_t abs_begin = abs(static_cast<int64_t>(*begin));
         int64_t abs_end = abs(static_cast<int64_t>(*end));
         if (abs_begin != abs_end && *begin != last && *end != last) {
@@ -41,11 +41,11 @@ int solution(vector<int> &A) {
 
 #include <unordered_set>
 
-int solution1(vector<int> &A) {
-    unordered_set<int> s;
+int solution2(vector<int> &A) {
+    unordered_set<int64_t> s;
     s.reserve(A.size());
     for(auto i : A)
-        s.insert((int)abs(i));
+        s.insert(abs(static_cast<int64_t>(i)));
         
     return s.size();
 }
