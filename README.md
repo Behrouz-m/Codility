@@ -64,9 +64,9 @@ Codility answers in C++
 - [MinMaxDivision](https://github.com/Behrouz-m/Codility/blob/master/14-BinarySearchAlgorithm/MinMaxDivision.cpp)
 - [NailingPlanks](https://github.com/Behrouz-m/Codility/blob/master/14-BinarySearchAlgorithm/NailingPlanks.cpp)
 
-<!--
 ## Lesson 15 [Caterpillar method](https://codility.com/programmers/lessons/13)
 - [AbsDistinct](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/AbsDistinct.cpp)
+<!--
 - [CountDistinctSlices](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/CountDistinctSlices.cpp)
 - [CountTriangles](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/CountTriangles.cpp)
 - [MinAbsSumOfTwo](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/MinAbsSumOfTwo.cpp)
