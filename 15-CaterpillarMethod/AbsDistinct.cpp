@@ -28,7 +28,7 @@ int solution1(vector<int> &A) {
                 break;
             if (*begin == last || last == INT64_MAX)
                 begin++;
-            else if (*end == last || last == INT64_MAX)
+            else if (*end == last)
                 end--;
             else
                 last = INT64_MAX;
