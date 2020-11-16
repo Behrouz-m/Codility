@@ -70,9 +70,9 @@ Codility answers in C++
 - [CountTriangles](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/CountTriangles.cpp)
 - [MinAbsSumOfTwo](https://github.com/Behrouz-m/Codility/blob/master/15-CaterpillarMethod/MinAbsSumOfTwo.cpp)
 
-<!--
 ## Lesson 16 [Greedy algorithms](https://codility.com/programmers/lessons/15)
 - [MaxNonoverlappingSegments](https://github.com/Behrouz-m/Codility/blob/master/16-GreedyAlgorithms/MaxNonoverlappingSegments.cpp)
+<!--
 - [TieRopes](https://github.com/Behrouz-m/Codility/blob/master/16-GreedyAlgorithms/TieRopes.cpp)
 
 ## Lesson 17 [Dynamic programming](https://codility.com/programmers/lessons/16)
