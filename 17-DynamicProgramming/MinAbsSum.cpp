@@ -1,7 +1,30 @@
+// reference: https://stackoverflow.com/a/44901707/365229
+#include <vector>
+#include <set> 
+
+int solution1(vector<int> &A) {
+    if (A.size() == 0) return 0;
+
+    set<int> sums, tmpSums;        
+    sums.insert(abs(A[0]));
+    for (auto it = begin(A) + 1; it != end(A); ++it)
+    {        
+        for (auto s : sums)
+        {
+            tmpSums.insert(abs(s + abs(*it)));
+            tmpSums.insert(abs(s - abs(*it)));            
+        }
+        sums = tmpSums;
+        tmpSums.clear();
+    }
+
+    return *sums.begin();
+}
+
 // reference: https://github.com/Behrouz-m/Codility/blob/master/Docs/solutions/solution-min-abs-sum.pdf
 // O(N^2.M)
 // result=72% : https://app.codility.com/demo/results/trainingQW8QE8-SDF/
-int solution(vector<int>& A) {
+int solution2(vector<int>& A) {
     const int N = A.size();
     if (N == 0)
         return 0;

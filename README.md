@@ -76,6 +76,6 @@ Codility answers in C++
 
 ## Lesson 17 [Dynamic programming](https://codility.com/programmers/lessons/16)
 - [MinAbsSum](https://github.com/Behrouz-m/Codility/blob/master/17-DynamicProgramming/MinAbsSum.cpp)
-<!--
 - [NumberSolitaire](https://github.com/Behrouz-m/Codility/blob/master/17-DynamicProgramming/NumberSolitaire.cpp)
+<!--
 -->
