@@ -1,3 +1,5 @@
+//result: https://app.codility.com/demo/results/trainingNVUJ8Y-WWA/
+
 vector<int> solution(string &S, vector<int> &P, vector<int> &Q) {
     vector<int> res;
     int N = S.size();
