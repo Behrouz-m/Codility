@@ -10,10 +10,7 @@ int solution(vector<int> &A) {
     vector<int> pre_sum(A.size() + 1, 0);
 
     for(size_t i=1; i<=A.size(); i++)
-    {
         pre_sum[i] = (pre_sum[i-1] + A[i-1]);
-        LOG("presum[" << i << "]=" << pre_sum[i]);
-    }
     
     double min_av = 20000;
     int min_ix = -1;
@@ -36,10 +33,18 @@ int solution(vector<int> &A) {
             }   
         }
     }
-    
-    /*
+
+    return min_ix;
+}
+/*
     // O(N**2) solution for test purpose
+    vector<int> pre_sum(A.size() + 1, 0);
+
+    for(size_t i=1; i<=A.size(); i++)
+        pre_sum[i] = (pre_sum[i-1] + A[i-1]);
     
+    double min_av = 20000;
+    int min_ix = -1;
     for(size_t i=1; i<A.size(); i++)
     {
         for(size_t j=i+1; j<=A.size(); j++)
@@ -54,5 +59,3 @@ int solution(vector<int> &A) {
             }
         }
     }*/
-    return min_ix;
-}
