@@ -77,5 +77,8 @@ Codility answers in C++
 ## Lesson 17 [Dynamic programming](https://codility.com/programmers/lessons/16)
 - [MinAbsSum](https://github.com/Behrouz-m/Codility/blob/master/17-DynamicProgramming/MinAbsSum.cpp)
 - [NumberSolitaire](https://github.com/Behrouz-m/Codility/blob/master/17-DynamicProgramming/NumberSolitaire.cpp)
+
+## Lesson 90 [Tasks from Indeed Prime 2015 challenge](https://app.codility.com/programmers/lessons/90-tasks_from_indeed_prime_2015_challenge/)
+- [LongestPassword](https://github.com/Behrouz-m/Codility/blob/master/90-TasksFromIndeedPrime-2015-Challenge/LongestPassword.cpp)
 <!--
 -->
