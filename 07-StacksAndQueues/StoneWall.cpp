@@ -54,7 +54,8 @@ int solution(vector<int> &H) {
 // ref: https://molchevskyi.medium.com/best-solutions-for-codility-lessons-lesson-7-stacks-and-queues-ef1415898cb
 int solution2(const vector<int> &v) {
     std::stack<int> stack;
-    int stones = 0;    for (auto height : v) {
+    int stones = 0;
+	for (auto height : v) {
         while (!stack.empty() && stack.top() > height) {
             stack.pop();
         }
