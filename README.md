@@ -83,5 +83,6 @@ Codility answers in C++
 
 ## Lesson 99 [Future training]
 - [StrSymmetryPoint](https://github.com/Behrouz-m/Codility/blob/master/99-FutureTraining/StrSymmetryPoint.cpp)
+- [TreeHeight](https://github.com/Behrouz-m/Codility/blob/master/99-FutureTraining/TreeHeight.cpp)
 <!--
 -->
