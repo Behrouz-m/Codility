@@ -80,5 +80,8 @@ Codility answers in C++
 
 ## Lesson 90 [Tasks from Indeed Prime 2015 challenge](https://app.codility.com/programmers/lessons/90-tasks_from_indeed_prime_2015_challenge/)
 - [LongestPassword](https://github.com/Behrouz-m/Codility/blob/master/90-TasksFromIndeedPrime-2015-Challenge/LongestPassword.cpp)
+
+## Lesson 99 [Future training]
+- [StrSymmetryPoint](https://github.com/Behrouz-m/Codility/blob/master/99-FutureTraining/StrSymmetryPoint.cpp)
 <!--
 -->
