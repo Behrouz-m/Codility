@@ -16,6 +16,8 @@
 #include <functional>
 #include <numeric>
 #include <random>
+#include <memory>
+#include <array>
 
 using namespace std;
 
@@ -52,8 +54,6 @@ void log_array(vector<T>& A) {
     cout << "array = " << A << endl;
 }
 
-#include <memory>
-
 class Array2D {
     size_t _rows;
     size_t _columns;
@@ -81,7 +81,7 @@ class ArrayInfo {
 public:
     using AfterInit = std::function<void(vector<T>& init_vector)>;
 
-    ArrayInfo() {}
+    ArrayInfo() = default;
 
     ArrayInfo(const T minV, const T maxV, bool unique = false, const AfterInit afterInit = nullptr) {
         _minV = minV;

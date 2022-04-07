@@ -13,7 +13,7 @@ int solution(vector<int> &A) {
         auto Q = P + 1;
         auto R = Q + 1;
         while (R < A.end()) {
-            if (*P + *Q > * R) {
+            if (*P + *Q > *R) {
                 count += R - Q;
                 R++;
             }
